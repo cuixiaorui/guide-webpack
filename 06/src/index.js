@@ -1,5 +1,6 @@
 function getComponent() {
-  return import("lodash")
+  // 可以使用 webpackChunkName 来自定义提取出去的文件名称
+  return import(/* webpackChunkName: "lodash" */ "lodash")
     .then(({ default: _ }) => {
       const element = document.createElement("div");
 
