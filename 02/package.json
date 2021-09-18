@@ -1,0 +1,23 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "json5": "^2.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

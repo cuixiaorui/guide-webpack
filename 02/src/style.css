@@ -1,0 +1,5 @@
+.hello {
+  color: red;
+  /* 基于 css-loader 的处理 这里也可以使用 url 导入图片 */
+  background: url("./logo.png");
+}
