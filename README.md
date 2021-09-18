@@ -9,4 +9,4 @@ webpack 教程
 3. Output Management
 4. Development 
 5. Code Splitting 
-6. Dynamic Imports 
+6. Dynamic Imports (Lazy Loading)
